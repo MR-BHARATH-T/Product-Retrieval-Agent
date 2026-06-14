@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Configuration and Secrets (Confidential)
+.env
+.env.local
+.env.*.local
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+visionspace/backend/chroma_db/
+visionspace/backend/cache/
+
+# Scraper Output / Temp Files
+ebay_results.html
+
+# IDE / System files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
